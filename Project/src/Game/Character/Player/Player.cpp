@@ -67,7 +67,7 @@ void Player::AddCurrentHealth(int health)
 		currentHealth += health;
 		if (currentHealth > this->health)
 		{
-			currentHealth = health;
+			currentHealth = this->health;
 		}
 	}
 }
